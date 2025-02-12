@@ -1,3 +1,9 @@
+/**
+ * dynamicParams: false restringe la aplicación a un conjunto fijo de rutas pre-generadas
+ * dynamicParams: true permite generar páginas dinámicamente para parámetros no definidos previamente.
+ */
+export const dynamicParams = false
+
 export async function generateStaticParams() {
   return [
     { id: "1" },
