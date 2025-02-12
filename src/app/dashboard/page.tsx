@@ -8,7 +8,7 @@ export default function DashboardPage() {
     <div>
       <h1>Dashboard Page</h1>
       <input onChange={(e) => setName(e.target.value)}/>
-      <p>{`Hello ${name}`}</p>
+      <p>{`Hello ${name}` }</p>
     </div>
   ) 
 }
