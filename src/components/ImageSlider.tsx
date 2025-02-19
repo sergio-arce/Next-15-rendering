@@ -1,22 +1,3 @@
-
-/**
- *  version 1
- */
-// 'use client'
-
-// import { serverSideFunction } from "@/utils/server-utils";
-
-// export default function ClientRoutePage() {
-
-//   const result = serverSideFunction()
-//   return <div>ClientRoutePage { result }</div>;
-// }
-
-
-/**
- *  version 2
- */
-
 "use client";
 
 import React from "react";
@@ -24,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function ClientRoutePage() {
+export const ImageSlider = () => {
 
   const settings = {
     dots: true
